@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins' sans-serif;
+    color: aliceblue;
+}
+
+
+
+.navbar ul{
+    position: absolute;
+    top: 50px;
+    right: 500px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.navbar a{
+    padding-left: 15px;
+    text-decoration-style: none;
+    color: aliceblue;
+    font-family: 'Poppins' sans-serif;
+}
+
+
+
+
+
+body{
+    background-color: black;
+}
+
+
+.bodycontent{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: aliceblue;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+    font-size: large;
+    text-align: center;
+}
+.bodycontent a:hover{
+    font-weight: 600;
+    transition: 0.5s;
+
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.servicesheader{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.services-cards{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.services-card:hover{
+    transform: translateY(-20px);
+
+
+}
+.services-card{
+    width: 350px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.services-card i{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+@media screen and (max-width: 768px){
+    .services-cards{ 
+        flex-direction: column;
+        align-items: center;
+    }
+    }
+
+    .contactimg ul{
+        text-decoration: none;
+        list-style-type: none;
+        padding:  0px;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        left: 400px;
+        padding-bottom: 1500px;
+        color: aliceblue;
+    
+    }
+    .contactimg a{
+        width: 50px;
+        height: auto;
+        margin-left: 50px;
+        overflow: hidden;
+        padding: 10px 20px;
+    }
+    .contactimg :hover{
+        transform: scale(1.2);
+        transition: transform 0.3s;
+    
+    }
